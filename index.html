@@ -25,20 +25,22 @@
   </head>
   <body>
     <main class="card">
-      <picture>
-        <source
-          media="(max-width: 48em)"
-          srcset="images/image-header-mobile.jpg"
-        />
-        <source
-          media="(min-width: 49em)"
-          srcset="images/image-header-desktop.jpg"
-        />
-        <img
-          src="images/image-header-desktop.jpg"
-          alt="female co-workers using laptops at their desk, one of them is laughing"
-        />
-      </picture>
+      <div class="card__image">
+        <picture>
+          <source
+            media="(max-width: 48em)"
+            srcset="images/image-header-mobile.jpg"
+          />
+          <source
+            media="(min-width: 49em)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <img
+            src="images/image-header-desktop.jpg"
+            alt="female co-workers using laptops at their desk, one of them is laughing"
+          />
+        </picture>
+      </div>
       <div class="card__content">
         <h1>Get <em>insights</em> that help your business grow.</h1>
         <p>
