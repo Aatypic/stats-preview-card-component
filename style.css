@@ -136,6 +136,9 @@ span {
   h1 {
     font-size: 1.675rem;
   }
+  p {
+    padding-block-end: 2.5rem;
+  }
   .card__stats {
     flex-direction: column;
   }
