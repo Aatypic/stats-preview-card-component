@@ -124,6 +124,7 @@ span {
   color: var(--clr-neutral106);
   font-family: var(--ff-accent);
   font-weight: var(--fw-regular);
+  font-size: 0.75rem;
 }
 
 @media screen and (max-width: 65em) {
