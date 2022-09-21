@@ -126,6 +126,9 @@ span {
 	font-weight: var(--fw-regular);
 	font-size: 0.75rem;
 }
+.stat:nth-child(3) > span:first-child {
+	text-transform: uppercase;
+}
 
 @media screen and (max-width: 65em) {
 	.card {
